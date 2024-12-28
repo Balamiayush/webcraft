@@ -1,0 +1,19 @@
+body[theme="black"]{
+    background: #000;
+}
+body[theme="black"] .section{
+    color: #fff;
+}
+body[theme="cyan"]{
+    background:#80becc;
+}
+body[theme="salmon"]{
+    background: salmon;
+}
+body[theme="white"]{
+    background: #fff;
+}
+@font-face {
+    font-family: Machina;
+    src: url(Pp\ Neue\ Machina\ -\ 400.ttf);
+}
