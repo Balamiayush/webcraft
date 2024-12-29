@@ -1,17 +1,33 @@
-body[theme="black"]{
-    background: #000;
+:root {
+    --black: #000;
+    --salmon: #EF9D71;
+    --white: #fff;
+    --dsalmon: rgb(83, 17, 33);
+    --cyan: #80BECC;
 }
-body[theme="black"] .section{
-    color: #fff;
+
+body[theme="black"] {
+    background: var(--black);
+    color: var(--white);
 }
-body[theme="cyan"]{
-    background:#80becc;
+
+body[theme="cyan"] {
+    background: var(--cyan);
+    color: var(--black);
 }
-body[theme="salmon"]{
-    background: salmon;
+
+body[theme="salmon"] {
+    background: var(--salmon);
+    color: var(--black);
 }
-body[theme="white"]{
-    background: #fff;
+
+body[theme="white"] {
+    background: var(--white);
+    color: var(--black);
+}
+
+body[theme="black"] .section {
+    color: var(--white);
 }
 @font-face {
     font-family: Machina;
